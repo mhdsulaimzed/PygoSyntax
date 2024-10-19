@@ -1,7 +1,7 @@
 {
     "iconDefinitions": {
       "_pygo": {
-        "iconPath": "../icons/pygo-icon.svg"
+        "iconPath": "../icons/pygo-icon.png"
       }
     },
     "file_extensions": {
