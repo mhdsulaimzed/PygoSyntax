@@ -29,10 +29,6 @@ def main():
         print("Indentation works!")
 ```
 
-## Known Issues
-
-[List any known issues or limitations here. If there are none, you can say "There are no known issues at this time."]
-
 ## Release Notes
 
 ### 1.0.0
@@ -43,7 +39,7 @@ Initial release of PyGo language support
 
 ## For more information
 
-* [Your GitHub Repository or Website]
-* [Contact Information or Bug Report Instructions]
+* https://www.sulaim.uno
+* sulaimsaed@gmail.com
 
 **Enjoy coding in PyGo!**
