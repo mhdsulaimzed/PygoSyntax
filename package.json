@@ -1,0 +1,35 @@
+{
+  "name": "pygo-language",
+  "displayName": "PyGo Language",
+  "description": "Language support for PyGo",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "icon": "icons/pygo-icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhdsulaimzed/PygoVSCode.git"
+  },
+  "contributes": {
+    "languages": [{
+      "id": "pygo",
+      "aliases": ["PyGo", "pygo"],
+      "extensions": [".pygo"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "pygo",
+      "scopeName": "source.pygo",
+      "path": "./syntaxes/pygo.tmLanguage.json"
+    }],
+    "iconThemes": [{
+      "id": "pygo",
+      "label": "PyGo",
+      "path": "./fileicons/pygo-icon-theme.json"
+    }]
+  }
+}

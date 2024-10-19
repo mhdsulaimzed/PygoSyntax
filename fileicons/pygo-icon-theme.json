@@ -1,0 +1,13 @@
+{
+    "iconDefinitions": {
+      "_pygo": {
+        "iconPath": "../icons/pygo-icon.svg"
+      }
+    },
+    "file_extensions": {
+      "pygo": "_pygo"
+    },
+    "languageIds": {
+      "pygo": "_pygo"
+    }
+  }

@@ -1,0 +1,64 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "PyGo",
+	"patterns": [
+	  {
+		"include": "#keywords"
+	  },
+	  {
+		"include": "#strings"
+	  },
+	  {
+		"include": "#comments"
+	  },
+	  {
+		"include": "#functions"
+	  }
+	],
+	"repository": {
+	  "keywords": {
+		"patterns": [
+		  {
+			"name": "keyword.control.pygo",
+			"match": "\\b(if|elif|else|for|while|return|import|from|as)\\b"
+		  },
+		  {
+			"name": "keyword.other.pygo",
+			"match": "\\b(print)\\b"
+		  },
+		  {
+			"name": "storage.type.function.pygo",
+			"match": "\\b(def)\\b"
+		  }
+		]
+	  },
+	  "strings": {
+		"name": "string.quoted.double.pygo",
+		"begin": "\"",
+		"end": "\"",
+		"patterns": [
+		  {
+			"name": "constant.character.escape.pygo",
+			"match": "\\\\."
+		  }
+		]
+	  },
+	  "comments": {
+		"patterns": [
+		  {
+			"name": "comment.line.number-sign.pygo",
+			"match": "#.*$"
+		  }
+		]
+	  },
+	  "functions": {
+		"patterns": [
+		  {
+			"name": "entity.name.function.pygo",
+			"match": "\\b(main)\\b"
+		  }
+		]
+	  }
+	},
+	"scopeName": "source.pygo"
+  }
