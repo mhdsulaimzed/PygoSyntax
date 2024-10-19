@@ -3,6 +3,7 @@
   "displayName": "PyGo Language",
   "description": "Language support for PyGo",
   "version": "0.0.1",
+  "publisher": "mhdsulaimzed",
   "engines": {
     "vscode": "^1.60.0"
   },
