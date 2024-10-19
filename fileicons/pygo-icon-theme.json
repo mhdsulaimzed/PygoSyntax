@@ -1,13 +1,29 @@
 {
-    "iconDefinitions": {
-      "_pygo": {
-        "iconPath": "../icons/pygo-icon.png"
-      }
+  "iconDefinitions": {
+    "_pygo": {
+      "iconPath": "../icons/pygo-icon.png"
+    }
+  },
+  "fileExtensions": {
+    "pygo": "_pygo"
+  },
+  "languageIds": {
+    "pygo": "_pygo"
+  },
+  "light": {
+    "fileExtensions": {
+      "pygo": "_pygo"
     },
-    "file_extensions": {
+    "languageIds": {
+      "pygo": "_pygo"
+    }
+  },
+  "highContrast": {
+    "fileExtensions": {
       "pygo": "_pygo"
     },
     "languageIds": {
       "pygo": "_pygo"
     }
   }
+}

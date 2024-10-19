@@ -2,8 +2,12 @@
   "name": "pygo-language",
   "displayName": "PyGo Language",
   "description": "Language support for PyGo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "mhdsulaimzed",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhdsulaimzed/PygoVSCode.git"
+  },
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -11,10 +15,6 @@
     "Programming Languages"
   ],
   "icon": "icons/pygo-icon.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mhdsulaimzed/PygoVSCode.git"
-  },
   "contributes": {
     "languages": [{
       "id": "pygo",
