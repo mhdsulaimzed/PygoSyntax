@@ -31,9 +31,9 @@ def main():
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.2
 
-Initial release of PyGo language support
+Latest release of PyGo language support
 
 ---
 
